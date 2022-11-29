@@ -1,0 +1,218 @@
+---
+title: |
+  | Exploring and Examining the Work Dignity from informal and formal employees perspectives - Methodology
+author: 
+   - Shankar Mepparambath^[School of Public Policy, email:smeppara@kautilya.org.in]
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document: default
+header-includes:
+- \usepackage[labelformat=empty]{caption}
+- \usepackage{setspace}\onehalfspacing
+- \usepackage{float}
+number_sections: yes
+geometry: margin=1in
+fontsize: 12pt
+mainfont: Times New Roman
+fig_caption: yes
+indent: yes
+csl: apa.csl
+link-citations: yes
+linkcolor : blue
+bibliography: hd.bib
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,warning = FALSE)
+library(foreign)
+library(rmarkdown)
+library(psych)
+library(ggplot2)
+library(knitr)
+library(tidyverse)
+library(citation)
+library(readxl)
+library(knitr)
+library(stargazer)
+library(equatiomatic)
+library(randomcoloR)
+suppressMessages(library(dplyr, warn.conflict = FALSE, quietly = TRUE))
+setwd("~/Desktop/KSPP/Sem III/RM/Term paper RM")
+
+```
+
+\newpage
+
+
+> "Human rights derive from the inherent dignity of the human person"
+
+
+> --- International Covenant on Civil and Political Rights (ICCP) Preamble
+
+
+
+
+# Introduction
+
+@beitz2013human said the phrase "Human dignity in the theory of human rights" would be more than a phrase where human dignity explains the nature and significance of human rights. Human dignity is the pre-cursor of Human rights. The Helsinki Final Act declared human rights as "all" rights, including political, civil, social, and economic underlying constructs of the person's human dignity. Human Dignity and Human rights are inseparable. @bayefsky_dignity_2013 echoed the view of Kant that it is understood that "dignity is the inherent and equal worth of every individual". @dickey2016living stated that dignity is independent of material experience. In her longitudinal qualitative research with Madurai residents', she brought out a dignity in everyday regard of humans, what other people think about them, and how they are valued or recognized in the society. Despite different classes, every human was attempting to qualify as a social being. Further, [@dickey2016livingb 23] explained dignity as 
+
+> Dignity is most crucially an end in itself, a good, not simply a type of capital that can be invested and converted to something else 
+
+
+In the early 1960s, John Rawls defined the components of justice; he emphasized justice as a function of Social values or resources theory which includes, Liberties, Opportunities, Income or Wealth, and Social bases of Self respect. All four should be distributed equally to all. Dignity and social bases of self-respect played a vital role in the normative society. Rawls emphasized the importance of self-respect, which is interlinked with human dignity at the theoretical level. However, on the practical level, in Tamil Nadu, a political movement named Self respect movement was started in 1925 by E.V.Ramasamy. Later on, it became a political party to fight against discrimination practices followed by the upper caste over lower caste people.  Precarious work and its contribution are invisible in the eyes of society.  Though precarious workers are physical presence in people's perception, they are utterly absent because of no societal recognition, which is equivalent to not existing in society's eyes.  The same idea is echoed by @blok2001honour, cited in the book of [@dickey2016livingb 98] "required some measure of recognition and repute, lest they die a social death.". Further she added 
+
+> [t]hat social death is the invisibility that denies dignity.
+
+  The current study is attempted to review dignity and workplace dignity from various domains such as Human rights, Human Dignity, Organizational Dignity, Workplace dignity and gender studies. The mapping of literature is given in the annexure—a further section, by and large, dealt with dignity from an Intersectionality perspective and workplace dignity paradigm. The review identified domestic worker dignity as almost mute compared to any other work and positioned it as a significant social problem from the socio-economic perspective.
+
+### Intersectionality
+
+@collins19911991a introduced the construct "Intersectionality" from Black Feminist literature; the study emphasized the social relationship is determined by the role of the intersectionality. The Dignity used in general parlance however same dignity is seen from white collar versus blue collar job or especially from domestic workers perspectives from the various dimensions of gender, caste and class bring  different understanding about dignity.  Any phenomena understood through an intersectional lens provide better explanatory power of the theory than the single-axis lens.   On generic public discourse, ordinary people or social scientists argued there is no caste or class disparity in modern society; however, inequality is well exposed through intersectionality roles like caste and gender [@ritzer2007blackwell 661]. The role of Intersectionality is to pivot to understand the reality of society; otherwise, aggregated multiple constructs iron out the actuality of unfairness in society. In this article, the social construct Dignity or Workplace dignity paradigm is seen through the Intersectionality of gender,caste and class.
+
+
+# 2 Review of Literature
+
+  Dignity is taken granted not only in the workspace, even in public spaces like educational institutions and worship centres etc.; one of the recent news in the state of Tamil Nadu,  20 priests, were arrested by the Tamil Nadu police for abusing the Dalit women who approached "Lord Shiva stage" (Chitrambala Medai) for the prayer @TNIE. A study from @vandana2020dalit showed how lower caste female students are targeted on sexual harassment in the well known Utter Pradesh university. Dignity is much worse for lesbians, gay, bisexual, trans, and queer (LGBTQ) over female counterparts, @baker_is_2017 examined the threat of dignity towards  LGBTQ employees, a study showed the experience of LGBTQ through workplace dignity lens. Most of the time, work is not conducive to their gender identity and sexual orientation. Workplace dignity is affected across all sex of the human being, especially enterprises, follow neo-liberalism policy of hiring and firing without much reason except to keep the bottom-line in the rosy picture.  one of the subjects expressed her grief after management announced to employees for no more jobs.
+[@wieland2020constituting 464].
+<div class="quote-container">
+
+> Moreover, almost [thousand] lose their jobs . . . You realize no job is safe. It does not matter how big or how small [of a] company you work at, anything could happen
+
+@mahalingam_decasticization_2019 In 2015, Chennai witnessed a devastating flood.   Twenty-five thousand janitors are invited from Arunthathiyar (Dalit) community to clean the city. All janitors took one month to clean the whole city; in the whole process, Dalit janitors should clean around ten thousand tons every day. Some of their experiences showed how indignity work-life they had. 
+
+<div class="quote-container">
+> The biggest problem was dead rats, chickens ... water for several days. It was horrible, and nothing equips you to clean this. I did not eat for a few weeks.
+</div>
+
+The cases mentioned above are not an outlier or exceptional in the work and non-workplace. @kostera_human_2017 stressed that human dignity is more on individual rights than to see from a utilitarian approach where few people can suffer at the cost of great benefits of more significant numbers. When compared to the dignity of formal employees with precarious workers, it is worst. A Malaysian domestic worker activist Fish study covered how domestic workers suffered a lot across the globe, it is illustrated by the Korean domestic workers' song [@fish_domestic_2017 100]
+  
+<div class="quote-container">
+
+> _We get up to work before sunrise. Work in the home at the door's behind. We have made the comfort in your home. Why our work is never recognized?_
+
+</div>
+
+The song applies to most domestic workers across the globe. The above discussed concerned of precarious work or domestic work showed how dignity of the lower class workers not given importance from the society perspectives. Dignity has various components of respectable treatment, equality, social recognition, and  non-discrimination which is taken from the previous studies.  The current study wants to explore the what is the dignity  and work dignity from the domestic workers and what is their experience from their work. The researcher is interested to know the what dimensions of dignity may come out of the study. 
+
+### Problem of Domestic workers - A Social Problem
+
+According to ILO Domestic work report, out of total employment, domestic workers constituents around 1.7% and in terms of wages their contribution is 3.6% across the world. 43.6 million female domestic workers across the globe. Many countries ratified the UN 45th session of General Assembly on domestic workers' rights, but still, India is not part of it @mann2015employment. Though many countries ratified, only five countries were made into force. Similar situation in India, though states like Tamil Nadu, Maharashtra, Kerala, Karnataka added domestic work under the schedule of minimum wages act, there is no guarantee of delivering it for all. A similar condition happens to the unorganized worker social security act. Only Delhi has Private placement agencies bill (2012) after the demise of female workers. However, the bill is not very efficient due to many lacunae, such as there is no mention about duties of the employer towards domestic workers, and there are no mechanisms to lodge sexual harassment against the crime doer or placement agencies. Indian migrated domestic work in the foreign land does a better job because India signed eight agreements with various countries using UN and ILO instrument. If this is possible, India should provide the same level of concern to the local domestic workers. 
+
+Domestic work or employment is not considered respectable employment despite almost every household hiring one maid or domestic work for cleaning, washing, cooking and caring. Predominant features of the domestic workers are ill-literate, Flexi hours, easy entry and exit, managing both house and work flexibility. There is the denial of minimum wage and fixed work hours. There is a trend showed that most domestic workers migrate from rural places to cities like Bangalore and Mumbai. Many women joined in paid domestic workers due to the precarious situation of their families. Narsamma, a domestic worker, replied to the interview,  verbatim from @chigateri2007articulations study,
+
+<div class="quote-container">
+> I have started domestic work only in the past five years. After marriage, I never went ... Because of difficulties at home [and] the children are growing up,... We did not go for any work.  Earlier, we used to do our housework. It is only after coming to Bangalore 
+
+</div>
+
+Society and government never considered domestic worker issues as severe social problems. Most of the Domestic workers belong to a particular lower caste community, historically known for doing menial jobs, and they cannot come out of a vicious circle due to lack of support from the government. Every big city in India like Delhi, Mumbai and Bangalore may have at least four to five lakh domestic workers rendering their service. In Mumbai, a domestic worker association was started, and later in Bangalore, Karnataka Domestic Worker Movement (KDWM) was started by Sr.Celia. Much mobilization is happening through the unions and forums, but still, the government has not passed any act which protects and promotes the welfare of the domestic workers in India. @menon_domestic_2021 organized many rallies to create awareness among the public on domestic workers' rights. Her blogs pinpointed that no exclusive schemes are not for domestic workers due to lack of legislation support. Migration of domestic workers from rural to urban sometimes leads to misuse of resources by placement agencies, leading to harmful social activities like human trafficking and sexual harassment. The scenario is not only in India; the study @marchetti2021global concluded that across the sample from nine countries, domestic work is treated as demeaning and 'dirty work' and compared to other labour rights, domestic works rights are nil or not adequate. It is high time for the government to enact a policy to benefit domestic workers in India. 
+
+### Integrated HRM for Workplace Dignity In Orgaization
+
+There is myth only low class level employees suffered in accessing the dignity at their work place.  Even many larger organization are not given much attention to the workplace dignity, however in recent times, change is witnessed. 
+Workplace dignity is shaped by two larger domains, sociology and economics; the former deals with the relationship between employer and employees, and the latter is concerned about human capital, which is encouraged to produce maximum utility. Sometimes both overlap, but they may conflict with each other on the goals of the domains. Founding gurus of management, where Weber and Elton Mayo initiated the humanistic approach, rooted in the sociology domain, and F.W. Taylor endorsed the economist approach. Individual rights and dignity is much appreciated from the humanistic approach, and Economics experts appreciate organizational growth and profitability. During Covid time, management realized the integrative humanistic and economic approaches, which gave an integrated human resources management approach, where human dignity is the core of the workplace arena @mazur_work_2021.
+
+  In earlier times, Organizational behaviour literature did not show interest in workplace dignity. However, @ahmed_does_2021 study filled the gap in work dignity in the organizational study, and the authors added two dimensions. such as, workplace dignity and discretionary work effort to the conservation of resources (COR) theory and study used measurement of work dignity developed by @thomas2019development.  The study outcome showed workplace dignity positively related to Discretionary work effort through organization-based self-esteem. Work dignity has well grown in the organizational studies, which showed how to work dignity is getting importance from the practitioner and academicians perspectives. 
+
+
+### Dignity and Well-Being is common currency 
+
+The human being across caste, class, gender and ethnicity tried to experience well dignity and well-being. People live in precarious position would not have well dignified life and their well-being most of the time questionable. Both dignity and well-being is subjective and immaterial factors played major role in the people life experiences. Acquisition of material and functional knowledge is great motivation to claim dignity in the social body space and consequences of dignity lead to experience the better life.  Sayer's words that
+
+> "Being able to participate in practices and such relationships and gain their internal good [dignity,regard,esteem, and respect] if one so wishes is crucial for well-being" 
+
+cited from  [@dickey2016livingc 98], which emphasized financial and resources access enact as antecedents on dignity and well being enact as consequences of dignity. From the sociology and management literature it is inferred that there is positive relationship between dignity and well-being across the various class of the people. 
+
+
+### Gap in Dignity literature from Informal and Formal employment 
+
+Dignity is a common currency for both the formal and informal employment segments. The difference between informal and formal sectors is in the form of pay scale and resources they are accessing in their job; however, dignity is non-negotiable; dignity matters for both types of employees.  In the literature of precarious domestic work,  @sharma2014pollution examined the perception of domestic workers about their employers and space they work in. His study used ethnography field work in and around Delhi, the study covered both interview and focus group which dealt the relationship between employer and employees from the intersectoral perspectives of caste, religion, region and work practices.  work practices such as separate cup or toilet usage indicated the untouchability and denial of dignity in the workplaces.  The study also highlighted there is untouchability among the domestic workers is existing in the form of caste.  Sometimes, workers does not want to work in employer house if it is  Muslim or Bengali.  In other hand, upper caste employer not permitting the lower caste workers to getting to kitchen work. The study provided insight of power and vulnerabilities existing between employer and employee relationship in the context of domestic works.  There is a very clear-cut evident from the literature that, what is dignity from informal segment needed much more explored, and also on formal segment in an Indian context, there is not much studied on how to quantify the work dignity. On domestic workers, to explore the meaning of dignity is most vital things.  On formal class employment, evaluating the dignity and examine the relationship between work place dignity and their outcome constructs such as employee engagement is much needed @thomas2019developmentb. However, the current study wants to examine the relationship between work dignity and social well-being through employee engagement.
+
+
+# Research Methodology and Design
+
+A study use both qualitative and quantitative method to understand the phenomena in better manner. The research question and objective of the study demands multi-method research approach suggested by @brewer2006foundations. Both informal and formal employees are the subject for the research interest, Qualitative method is used to explore the the phenomena of dignity and work dignity from the domestic workers.  on other hand, quantitative method is used to examine the relationship between work dignity and organizational variables among the formal employees.  Interview method is used collect data from the domestic workers and Questionnaire method is used to collect data from the higher class employees. 
+
+### Qualitative Research
+
+  To explore the meaning of work dignity from the domestic workers qualitative approach is applied where narrative method used as theoretical perspectives and data is collected through interview method. Interview contained basic information about domestic workers demographics, and socio-economic profile. Data is collected through purposive sample design. seven participants are chosen for the interview purpose.  Interview schedule kept in simple and short form, not more than five to seven questions have kept around central theme of the study @creswell2016qualitative.  Key questions are covered in the interview schedule in the form of open-ended.  For example:  "what is dignity?", "what is the dignity at your work?", "what is the positive and negative experience in day today experience?". Some questions are customized based on the interaction between the interviewer and interviewees.   To understand through multi-dimensions, data is collected through both female and male domestic workers and also covering different caste background domestic workers. Further, Collected data in the form of vernacular language and it is translated into English further transcribed is used to analyze the data. 
+  
+### Quantitative Research
+
+  To examine the relationship between workplace dignity and organizational variables such as employees dignity and social well-being quantitative research approach is followed, where survey research design is used to obtain the inference on population characteristics based on sample characteristics.  Non-probability convenience sample design is used to collect data through the online mode.  Data collected from the formal employees who work in any organization and study considered individual employees as sample units. Total 125 samples are collected. Through the aid of questionnaire, primary data is collected. Questionnaire contains both the facts (demographic and organizational profile) and perceptual data (study constructs).  Standard instrument is used to capture the data.  All the statements or items are captured in the form of 5 point rating likert scale, 1 denote strongly disagree and 5 indicate strongly agree.  Cronbach alpha is used to assess the internal consistency of the scale and threshold value is followed  as greater than .7, suggested by @nunnally1994psychometric.  The objective of the study is to examine the relationship among the study constructs, and hypothesis formulation helps to give direction further to test the theory based data through statistical tests. The hypothesis are given below:
+  
+- H1: There is a relationship between workplace dignity and well-being among the formal employees
+- H2: There is a relationship between employee engagement and well-being
+- H3: There is a relationship between workplace dignity and employee engagement
+- H4: Employee engagement enacts as mediator between workplace dignity and well-being
+- H5: There is significant difference perceived on study constructs (workplace dignity, employee engagement, and well-being) 
+    by gender and occupation
+
+### Data analysis approach
+
+To test the above mentioned hypothesis, various statistical test is used.  from hypothesis 1 through hypothesis 4, is tested through partial least square structural equation model (PLS-SEM) and hypothesis 5 is tested through independent t test and one way ANOVA. Descriptive statistics is used to analysis the sample composition and item wise distribution. 
+
+
+
+\newpage
+
+### Reference:
+
+<div id="refs"></div>
+
+\newpage
+
+### Annexure - Literautre Mapping
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("pic1.png")
+```
+
+\newpage
+
+### Annexure - Research Methodology in Brief
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("pic2.png")
+```
+
+
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("pic6.png")
+```
+
+
+\newpage
+
+### Annexure - Qualitative  - Interview schedule - Dignity among Doemstic workers
+
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("pic4.png")
+```
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("pic5.png")
+```
+
+
+
+
+\newpage
+
+### Annexure - Research design - Questionnaire - Work dignity and social well being
+
+Work dignity scale developed by @thomas2019development which contains 14 items and five dimensions namely, 
+1. Respectful Interaction, 2. Competence contribution, 3.Equality, 4.Inherent Value and 5.General Dignity.
+Similarly, Social well-being is measured through standard instrument which contains 8 items unidimensional 
+scale.
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("pic3.png")
+```
+
+
+

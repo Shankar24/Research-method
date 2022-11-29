@@ -1,0 +1,35 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+csl: apa.csl
+link-citations: yes
+linkcolor : blue
+bibliography: bibliography.bib
+---
+
+\newpage
+
+> "Human rights derive from the inherent dignity of the human person"
+
+
+> --- International Covenant on Civil and Political Rights (ICCP) Preamble
+
+# Introduction
+
+@beitz2013human said the phrase "Human dignity in the theory of human rights" would be more than a phrase where human dignity explains the nature and significance of human rights. Human dignity is the precursor of Human rights. The Helsinki Final Act declared human rights as "all" rights, including political, civil, social, and economic underlying constructs of the person's human dignity. Human Dignity and Human rights are inseparable. @bayefsky_dignity_2013 echoed the view of Kant that it is understood that "dignity is the inherent and equal worth of every individual". @dickey2016living stated that dignity is independent of material experience. In her longitudinal qualitative research with Madurai residents', she brought out a dignity in everyday regard of humans, what other people think about them, and how they are valued or recognized in the society. Despite different classes, every human attempted to qualify as a social being. Further, [@dickey2016livingb 23] explained dignity as 
+
+> Dignity is most crucially an end in itself, a good, not simply a type of capital that can be invested and converted to something else 
+
+
+In the early 1960s, John Rawls defined the components of justice; he emphasized justice as a function of Social values or resources theory which includes, Liberties, Opportunities, Income or Wealth, and Social bases of Self respect. All four should be distributed equally to all. Dignity and social bases of self-respect played a vital role in the normative society. Rawls emphasized the importance of self-respect, which is interlinked with human dignity at the theoretical level. However, on the practical level, in Tamil Nadu, a political movement named Self respect movement was started in 1925 by E.V.Ramasamy. Later, it became a political party to fight against discrimination practices by the upper caste over lower caste people. Precarious work and its contribution are invisible in the eyes of society. Though precarious workers are physical presence in people's perception, they are utterly absent because of no societal recognition, which is equivalent to not existing in society's eyes. The same idea is echoed by @blok2001honour, cited in the book of [@dickey2016livingb 98] "required some measure of recognition and repute, lest they die a social death.". Further, she added. 
+
+> [t]hat social death is the invisibility that denies dignity.
+
+  The current study is attempted to review dignity and workplace dignity from various domains such as Human rights, Human Dignity, Organizational Dignity, Workplace dignity and gender studies. The mapping of literature is given in the annexure—a further section, by and large, dealt with dignity from an Intersectionality perspective and workplace dignity paradigm. The review identified domestic worker dignity as almost mute compared to any other work and positioned it as a significant social problem from the socioeconomic perspective.
+
+## Intersectionality
+
+@collins19911991a introduced the construct "Intersectionality" from Black Feminist literature; the study emphasized the role of Intersectionality determines social relationships. Dignity is used in general parlance; however, the same dignity is seen in white-collar versus blue-collar jobs or especially from domestic workers' perspectives from the various dimensions of gender, caste, and class, bringing different understanding about dignity. Any phenomena understood through an intersectional lens provide better explanatory power of the theory than the single-axis lens.   In generic public discourse, ordinary people or social scientists argue there is no caste or class disparity in modern society; however, inequality is well exposed through intersectionality roles like caste and gender [@ritzer2007blackwell 661]. The role of Intersectionality is to pivot to understand the reality of society; otherwise, aggregated multiple constructs iron out the actuality of unfairness in society. In this article, the social construct Dignity or Workplace dignity paradigm is seen through the Intersectionality of gender, caste and class.

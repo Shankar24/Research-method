@@ -1,0 +1,8 @@
+---
+title: ''
+output: pdf_document
+---
+
+\section*{Acknowledgement}
+
+I thank my mentor Dr Vasudha Katju who spent quality time and gave valuable feedback during every meeting.  I got valuable input on the domestic worker's movement in India after interacting with Ms Menon, who runs a firm for the cause of Domestic workers' welfare. My sincere thanks to her. I thank Dr Amrendra Pandey, who covered the fundamental quantitative research part of the curriculum. I thank Dr Commuri for his valuable input on research ethics. I thank all other faculty and support staff members who helped me in various stages of my work. On the Data collection front, I owe my thanks to Dr Arora, Dr Kavya Shree and Ms Ashwini Shelke, who extended their support in translating the interview from vernacular to English. I also thank Mr. Naveen Raj who helped to collect the data and supported in basic analysis

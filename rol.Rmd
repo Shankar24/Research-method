@@ -1,0 +1,62 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+csl: apa.csl
+link-citations: yes
+linkcolor : blue
+bibliography: bibliography.bib
+---
+
+# Review of Literature 
+
+  Dignity is taken for granted in the workspace and public spaces like educational institutions, worship centres, etc.    In recent news in Tamil Nadu, the Tamil Nadu police arrested 20 priests for abusing the Dalit women who approached the "Lord Shiva stage" (Chitrambala Medai) for the prayer @TNIE. A study from @vandana2020dalit showed how lower caste female students are targeted by sexual harassment in the well-known Utter Pradesh university. Dignity is much worse for lesbians, gay, bisexual, trans, and queer (LGBTQ) over female counterparts. @baker_is_2017 examined the threat of dignity to LGBTQ employees, and a study showed the experience of LGBTQ through a workplace dignity lens. Most of the time, work is not conducive to their gender identity and sexual orientation. Workplace dignity affects all human beings irrespective of sex, especially enterprises, follow neo-liberalism policy of hiring and firing without much reason except to keep the bottom-line in the rosy picture.  one of the subjects expressed grief after management announced that management announced to employees for no more jobs.
+[@wieland2020constituting 464].
+
+
+> Moreover, almost [thousand] lose their jobs . . . You realize no job is safe. It does not matter how big or how small [of a] company you work at; anything could happen
+
+@mahalingam_decasticization_2019 In 2015, Chennai witnessed a devastating flood.   Twenty-five thousand janitors from Arunthathiyar (Dalit) community are invited to clean the city. All janitors took one month to clean the whole city; in the process, Dalit janitors should clean around ten thousand tons daily. Some of their experiences showed how indignity work-life they had. 
+
+
+> The biggest problem was dead rats, chickens ... water for several days. It was horrible, and nothing equips you to clean this. I did not eat for a few weeks.
+
+
+The cases mentioned above are not an outlier or exceptional work and non-workplace. @kostera_human_2017 stressed that human dignity is more on individual rights than seen from a utilitarian approach where few people can suffer at the cost of great benefits for more significant numbers. Compared to the dignity of formal employees with precarious workers, it is worst. A Malaysian domestic worker activist, Fish's study covered how domestic workers suffered a lot globally. It is illustrated by the Korean domestic workers' song [@fish_domestic_2017 100]
+  
+
+
+> _We get up to work before sunrise. Work in the home at the door is behind. We have made the comfortable in your home. Why our work is never recognized?_
+
+
+
+The song applies to most domestic workers across the globe. The above-discussed concerns of precarious work or domestic work showed how the dignity of the lower class workers is not given importance from society's perspective. Dignity has various components of proper treatment, equality, social recognition, and non-discrimination, taken from the previous studies. The current study wants to explore the dignity and work dignity of the domestic workers and their experience from their work. The researcher is interested to know the dimensions of dignity that may come from the study. 
+
+## Problem of Domestic workers - A Social Problem
+
+According to ILO Domestic work report, out of total employment, domestic workers constitute around 1.7%, and in terms of wages, their contribution is 3.6% worldwide. 43.6 million female domestic workers across the globe. Many countries ratified the UN 45th session of General Assembly on domestic workers' rights, but still, India is not part of it @mann2015employment. Though many countries ratified it, only five countries were made into force. Similar situation in India, though states like Tamil Nadu, Maharashtra, Kerala, and Karnataka added domestic work under the schedule of the minimum wages act, there is no guarantee of delivering it for all. A similar condition happens to the unorganized worker social security act. Only Delhi has Private placement agencies bill (2012) after the demise of female workers. However, the bill is not very efficient due to many lacunae, such as there is no mention of the employer's duties towards domestic workers, and there are no mechanisms to lodge sexual harassment against the crime doer or placement agencies. Indian migrated domestic work in the foreign land does a better job because India signed eight agreements with various countries using UN and ILO instrument. If possible, India should provide the same level of concern to the local domestic workers. 
+
+Domestic work or employment is not considered respectable, despite almost every household hiring one maid or domestic work for cleaning, washing, cooking and caring. Predominant features of the domestic workers are ill-literate, Flexi hours, easy entry and exit, and managing both house and work flexibility. There is the denial of minimum wage and fixed work hours. A trend shows that most domestic workers migrate from rural places to cities like Bangalore and Mumbai. Many women joined as paid domestic workers due to the precarious situation of their families. Narsamma, a domestic worker, replied to the interview verbatim from the @chigateri2007articulations study,
+
+
+> I have started domestic work only in the past five years. After marriage, I never went ... Because of difficulties at home [and] the children are growing up,... We did not go for any work. Earlier, we used to do our housework. It is only after coming to Bangalore. 
+
+
+
+Society and government never considered domestic worker issues as severe social problems. Most domestic workers belong to a particular lower caste community, historically known for doing menial jobs. They cannot come out of a vicious circle due to a lack of support from the government. Like Delhi, Mumbai and Bangalore, every big city in India may have at least four to five lakh domestic workers rendering their service. In Mumbai, a domestic worker association was started, and later in Bangalore, Karnataka Domestic Worker Movement (KDWM) was started by Sr.Celia. Much mobilization is happening through the unions and forums, but still, the government has not passed any act protecting and promoting the welfare of the domestic workers in India. @menon_domestic_2021 organized many rallies to create awareness among the public on domestic workers' rights. Her blogs pinpointed that no exclusive schemes are not for domestic workers due to a lack of legislative support. The migration of domestic workers from rural to urban sometimes leads to misuse of resources by placement agencies, leading to harmful social activities like human trafficking and sexual harassment. The scenario is not only in India; the study @marchetti2021global concluded that across the sample from nine countries, domestic work is treated as demeaning and 'dirty work' and compared to other labour rights, domestic works rights are nil or not adequate. It is high time for the government to enact a policy to benefit domestic workers in India. 
+
+## Dignity and Well-Being are common currency 
+
+The human being across caste, class, gender and ethnicity tried to experience well dignity and well-being. People in precarious positions would not have well-dignified lives, and their well-being is questionable. Both dignity and well-being are subjective and immaterial factors that significantly influence people's life experiences. Acquisition of material and functional knowledge is excellent motivation to claim dignity in the social body space, and the consequences of dignity lead to experiencing a better life. Sayer's words that
+
+> "Being able to participate in practices and such relationships and gain their internal good [dignity, regard, esteem, and respect] if one so wishes is crucial for well-being." 
+
+Cited from  [@dickey2016livingc 98], which emphasized financial and resource access enacted as antecedents on dignity and well-being enacted as consequences of dignity. From the sociology and management literature, it is inferred that there is a positive relationship between dignity and well-being across the various class of people. 
+
+
+## Gap in Dignity literature from Informal and Formal employment 
+
+Dignity is a common currency for both the formal and informal employment segments. The difference between informal and formal sectors is in the pay scale and resources they are accessing in their job; however, dignity is non-negotiable; dignity matters for both types of employees. In the literature on precarious domestic work,  @sharma2014pollution examined the perception of domestic workers about their employers and the space they work in. His study used ethnography fieldwork in and around Delhi; the study covered interviews and focus groups which dealt with the relationship between employer and employees from the intersectoral perspectives of caste, religion, region and work practices. Work practices such as a separate cup or toilet usage indicated the untouchability and denial of dignity in the workplace. The study also highlighted that there is untouchability among the domestic workers in the form of caste. Sometimes, workers do not want to work in the employer's house if it is  Muslim or Bengali.
+On the other hand, upper-caste employers do not permit the lower caste workers to get to kitchen work. The study provided insight into the power and vulnerabilities between employer and employee relationships in domestic work. The clear-cut evidence from the literature suggests that dignity from the informal segment needs much more explored. For domestic workers, exploring the meaning of dignity is the most vital thing.

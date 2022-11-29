@@ -1,0 +1,102 @@
+---
+title: " "
+output:
+  pdf_document:
+    number_sections: TRUE
+geometry: "left = 2.5cm, right = 2cm, top = 2cm, bottom = 2cm"
+fontsize: 11pt
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+  - \usepackage{paralist}
+  - \usepackage{setspace}\spacing{1.5}
+  - \usepackage{fancyhdr}
+  - \usepackage{lastpage}
+  - \usepackage{dcolumn}
+
+  - \usepackage{natbib}\bibliographystyle{agsm}
+  - \usepackage[nottoc, numbib]{tocbibind}
+csl: apa.csl
+link-citations: yes
+linkcolor : blue
+bibliography: bibliography.bib
+---
+
+```{r title, child= 'Title.Rmd'}
+```
+
+
+\newpage
+
+\pagenumbering{gobble}
+
+
+\begin{centering}
+
+{\bf Abstract}
+
+\end{centering}
+
+\spacing{1}
+
+**The study used both qualitative and quantitative research approaches to explore and examine the dignity of both domestic workers and formal work employees, respectively. It employed the interview method to collect the data from domestic workers and questionnaire as data collection from formal employees. On interview data, broad dimensions or themes are identified based on participants verbatim. On quantitative analysis, a Partial least square Structural equation model  test is applied to test the model. From both segment of employees, the study revealed that, work dignity and well being is the non-negotiable common currency for all type of employees. Qualitative revealed both positive and negative experience of the domestic workers with their masters.Quantitative study proved there is relationship between work dignity and social well-being. Study supported the employee engagement as mediator between work dignity and social well-being**
+
+\pagenumbering{roman}
+
+\newpage
+
+\centering
+\raggedright
+\newpage
+\tableofcontents
+
+\newpage
+
+```{r acknowledgments, child='ack.Rmd'}
+```
+
+
+\newpage
+\listoftables
+\listoffigures
+
+
+\newpage
+\pagenumbering{arabic}
+
+```{r intro, child = 'intro.Rmd'}
+```
+
+
+
+```{r methods, child = 'rol.Rmd'}
+```
+
+
+```{r results, child = 'rm.Rmd'}
+```
+
+\newpage
+
+```{r discussion, child = 'analysis.Rmd'}
+```
+
+\newpage
+
+
+```{r conclusion, child = 'fdc.Rmd'}
+```
+
+\newpage
+
+# References
+
+```{r biblio, child = 'bibliography.Rmd'}
+```
+
+<div id="refs"></div>
+
+\newpage
+
+```{r appendix, child = 'appendix.Rmd'}
+```

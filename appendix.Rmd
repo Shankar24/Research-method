@@ -1,0 +1,133 @@
+---
+title: ''
+output: pdf_document
+---
+
+# Study Annexure 
+
+## Annexure - A Research Methodology in Brief
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("Img/pic2.png")
+```
+
+\newpage
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("Img/pic6.png")
+```
+
+
+\newpage
+
+## Annexure - B Interview schedule - Dignity among Doemstic workers
+
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("Img/pic4.png")
+```
+
+\newpage
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("Img/pic5.png")
+```
+
+\newpage
+
+## Annexure - C Questionnaire - Work dignity and social well being from Employees
+
+Work dignity scale developed by @thomas2019development which contains 14 items and five dimensions namely, 
+1. Respectful Interaction, 2. Competence contribution, 3.Equality, 4.Inherent Value and 5.General Dignity.
+Similarly, Social well-being is measured through standard instrument which contains 8 items unidimensional 
+scale.
+
+```{r,echo=FALSE, out.width="150%"}
+knitr::include_graphics("Img/pic3.png")
+```
+
+\newpage 
+
+## Annexure - D Basic summary statistics - Item wise
+
+
+```{r}
+library(readxl)
+library(knitr)
+dt = read_excel("Data/wd.xlsx",sheet = "data")
+dt1 = dt[,9:43]
+library(psych)
+desc = data.frame(describe(dt1))
+varname = c("wd1.People at work communicate with me respectfully.",
+"wd2.I feel respected when I interact with people at work.",
+"wd3.I am treated with respect at work.",
+"wd4.At work, I have the chance to build my competence.",
+"wd5.People at work recognize my competence.",
+"wd6.People show they appreciate my work efforts.",
+"wd7.At work, people talk to me like an equal, even if there are status differences between us.",
+"wd8.I feel just as valued as others in the organization.",
+"wd9.At work, I am valued as a human being.",
+"wd10.People at work treat me like I matter as a person, not just as a worker.",
+"wd11.People at work genuinely value me as a person.",
+"wd12.My workplace is a source of dignity for me.",
+"wd13.I am treated with dignity at work.",
+"wd14.I have dignity at work.",
+"wb1.Quality of personal interaction with colleagues.",
+"wb2.Quality of interaction with friends and domestic people.",
+"wb3.Extent of leisure and social activities.",
+"wb4.Participate in the religious festival and social gatherings.",
+"wb5.Able to adjust  with the new environment and people.",
+"wb6.Satisfied with social activities I normally do.",
+"ee1.Time flies when I am working. ",
+"ee2.At my job, I feel strong and vigorous.",
+"ee3.I am enthusiastic about my job.",
+"ee4.When I am working, I forget everything else around me.",
+"ee5.My job inspires me.",
+"ee6.When I get up in the morning, I feel like going to work. ",
+"ee7.I feel happy when I am working intensely.",
+"ee8.I am proud of the work that I do.",
+"ee9.I am immersed in my  work.",
+"ee10.I can continue working for very long periods at a time.",
+"ee11.To me, my job is challenging.",
+"ee12.I get carried away when I am working. ",
+"ee13.At my job, I am very resilient, mentally.",
+"ee14.It is difficult to detach myself from my job.",
+"ee15.At my work, I always persevere, even when things do not go well.")
+rownames(desc) = varname
+
+library(readxl)
+dt = read_excel("Data/wd.xlsx",sheet = "data")
+demo = dt[,c(1:5,7,8)]
+count1<- apply(demo[,],2,function(x)table(x))
+percentage1<- apply(demo[,],2,function(x)(prop.table(table(x))*100))
+freq1<- data.frame(unlist(count1),unlist(percentage1))
+kable(freq1,caption = "Demographic Distribution",col.names = c("count","percentage"),digits = 2)
+
+kable(desc[,c("n","mean","sd","min","max")],digits = 2,caption="Descripitve statistics")
+```
+
+## Annexure E Outer loadings
+
+```{r}
+setwd("/Users/apple/Desktop/KSPP/Sem III/RM/RM Term Paper/")
+cl = read.csv("crossloadings.csv")
+colnames (cl) = c("Items","Abs","Cmp","Ded","Equ","Gdg","Inh","Res","SWB","Vig")
+kable(cl,caption = "Cross loadings",digits = 3)
+```
+
+## Discriminant validity
+
+```{r}
+dv = read.csv("DV.csv")
+colnames(dv) = rownames(dv)
+dv1 = dv[-c(4),-c(5,12)]
+kable(dv1,caption = "Discriminant validity",,digits = 3,col.names = c("Constructs","Abs","Cmp","Ded","Equ","Gdg","Inh","Res","SWB","Vig"))
+```
+
+\newpage
+
+## Annexure F word cloud from Formal Employees
+
+```{r wc, echo=F, out.width="150%",fig.cap="Word Cloud"}
+knitr::include_graphics("Img/wc.png")
+```

@@ -1,0 +1,34 @@
+---
+title: " "
+output: pdf_document
+header-includes:
+  - \usepackage{float}
+  - \usepackage{sectsty}
+csl: apa.csl
+link-citations: yes
+linkcolor : blue
+bibliography: bibliography.bib
+---
+
+# Research Methodology and Design
+
+A study used both qualitative and quantitative methods to understand the phenomena comprehensively. The research question and objective of the study demand a multi-method research approach suggested by @brewer2006foundations. Both informal and formal employees are the subject of the research interest; the qualitative method has been adopted to explore the phenomena of dignity and work dignity of domestic workers. On the other hand, the quantitative method has been employed to examine the relationship between work dignity and organizational variables among formal employees. The interview method is used to collect data from the domestic workers, and the Questionnaire method is used to collect data from the higher class employees. Refer Annexure A for methodology and design
+
+
+## Data analysis approach
+
+In the qualitative data, broader dimensions or components have been identified through empirical 
+evidence. The interview data is codified as broad themes or components. Further, it is compared with prior literature to understand the alignment of the current study with previous literature or new dimensions may reveal. Hypothesis 1 through hypothesis 4 tested statistical tests in quantitative analysis through a partial least square structural equation model (PLS-SEM). 
+
+## Qualitative Research
+
+The meaning of work dignity is explored from the domestic worker's perspective. The narrative method is used as a theoretical perspective, and data is collected through the interview method. The interview contained basic information about domestic workers' demographics and socioeconomic profiles. A purposive sample is employed to collect the data. Seven participants have chosen for the interview purpose. The interview schedule is kept short and straightforward; not more than five to seven questions have been kept around the central theme of study @creswell2016qualitative. Key questions are in the form of open-ended. For example: "what is dignity?", "what is the dignity at your work?", "What is the positive and negative experience in the day-to-day experience?". Refer Annexure B to understand the interview schedule. Some questions are customized based on the interaction between the interviewer and interviewees.   Data is collected through both female and male domestic workers and covers different caste backgrounds of domestic workers. Collected data in the form of vernacular language and translated into English further transcribed is used to analyze the data. 
+ 
+## Quantitative Research
+
+To examine the relationship between workplace dignity and organizational variables such as employees' dignity and social well-being.   Survey research design is used to infer population characteristics based on sample characteristics. Non-probability convenience sample design is used to collect data through the online mode. Data collected from the formal employees who work in any organization and study considered individual employees as sample units. A total of 110 samples are collected but usable sample is 87. Through the aid of a questionnaire or instrument, primary data is collected. The Questionnaire contains the facts (demographic and organizational profile) and perceptual data (study constructs). Refer Annexure C for work dignity instrument.  A standard instrument is used to capture the data. All the statements or items are captured in the form of 5 points rating Likert scale, 1 denotes strongly disagree, and 5 indicates strongly agree. Cronbach alpha is used to assess the scale's internal consistency, and the threshold value is followed as greater than .7, as suggested by @nunnally1994psychometric. The study's objective is to examine the relationship among the study constructs, and hypothesis formulation helps to give direction further to test the theory-based data through statistical tests. The hypothesis is shown below:
+  
+- H1: There is a relationship between workplace dignity and well-being among the formal employees
+- H2: There is a relationship between employee engagement and well-being
+- H3: There is a relationship between workplace dignity and employee engagement
+- H4: Employee engagement enacts as the mediator between workplace dignity and well-being
